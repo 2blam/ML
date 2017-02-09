@@ -1,7 +1,7 @@
 # data proprocessing
 
 # set working directory
-setwd("~/Documents/Git/ML/datapreprocessing")
+setwd("~/Documents/Git/ML/data_preprocessing")
 
 # import dataset
 dataset = read.csv("Data.csv")

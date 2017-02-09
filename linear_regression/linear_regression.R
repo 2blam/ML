@@ -1,7 +1,7 @@
 # linear regression
 
 # set working directory
-setwd("~/Documents/Git/ML/linearregression")
+setwd("~/Documents/Git/ML/linear_regression")
 
 # import dataset
 dataset = read.csv("Salary_Data.csv")
