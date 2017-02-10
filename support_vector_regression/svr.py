@@ -17,6 +17,13 @@ from sklearn.cross_validation import train_test_split
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.2, random_state=0) # 20% for testing dataset
 """
 
+# re-scale feature values
+from sklearn.preprocessing import StandardScaler
+sc_X = StandardScaler()
+X= sc_X.fit_transform(X)
+y= sc_X.fit_transform(y)
+
+
 # fit the support vector regression model to the dataset
 from sklearn.svm import SVR
 regressor = SVR(kernel = "rbf") #gaussian
