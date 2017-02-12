@@ -31,10 +31,10 @@ Note:
 
 - check the 50% of the x-axis, and then check the projected value in y-axis
 - if the projected value in y-axis is
-  < 60%  - dump it..
-  between 60% and 70% - poor
-  between 70% and 80% - good
-  between 80% and 90% - v. good
-  between 90% and 100% - too good (overfitting ?)
+  - < 60%  - dump it..
+  - between 60% and 70% - poor
+  - between 70% and 80% - good
+  - between 80% and 90% - v. good
+  - between 90% and 100% - too good (overfitting ?)
 
 
